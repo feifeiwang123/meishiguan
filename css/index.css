@@ -71,7 +71,7 @@ img {
   position: absolute;
 }
 .colorFFF{
-  color: #fff;
+  color: #fff !important;
 }
 .padding_top20{
   padding-top: 20px;
