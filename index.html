@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>美食馆</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/lrtk.css">
+    <!-- <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> -->
+    <script type="text/javascript" src="js/koala.min.1.5.js"></script>
+    <script type="text/javascript" src="./js/tween.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="w1100 clear">
+        <div class="pull-left">
+          美食馆
+        </div>
+        <div class="pull-right">
+          number:  400-000-8888
+        </div>
+      </div>
+    </header>
+    <div class="nav"  style="background-color:#c30d23">
+      <ul class="w1100 clear" id="tabUl">
+        <li class="pull-left colorChange">首页</li>
+        <li class="pull-left">关于我们</li>
+        <li class="pull-left">最新动态</li>
+        <li class="pull-left">所有美食</li>
+      </ul>
+    </div>
+    <div class="">
+      <ul class="tabBanner" id="tabBanner">
+        <li class="show">
+          <div id="fsD1" class="focus" style="margin-top: -20px;">
+              <div id="D1pic1" class="fPic">
+                  <div class="fcon" style="display: none;">
+                      <a target="_blank" href="javascript:void(0)"><img src="images/01.jpg" style="opacity: 1; "></a>
+                      <span class="shadow"><a target="_blank" href="javascript:void(0)">红三代叶明子太庙办盛典 白色羽毛装高贵动人</a></span>
+                  </div>
+
+                  <div class="fcon" style="display: none;">
+                      <a target="_blank" href="javascript:void(0)"><img src="images/02.jpg" style="opacity: 1; "></a>
+                      <span class="shadow"><a target="_blank" href="javascript:void(0)">佟大为登封面表情搞怪 成熟男人也是天真男孩</a></span>
+                  </div>
+
+                  <div class="fcon" style="display: none;">
+                      <a target="_blank" href="javascript:void(0)"><img src="images/03.jpg" style="opacity: 1; "></a>
+                      <span class="shadow"><a target="_blank" href="javascript:void(0)">21岁出柜超模巴厘自曝搞笑全裸照</a></span>
+                  </div>
+
+                  <div class="fcon" style="display: none;">
+                      <a target="_blank" href="javascript:void(0)"><img src="images/04.jpg" style="opacity: 1; "></a>
+                      <span class="shadow"><a target="_blank" href="javascript:void(0)">金喜善出道21年 皮肤白皙越长越“嫩”！</a></span>
+                  </div>
+              </div>
+              <div class="fbg">
+              <div class="D1fBt" id="D1fBt">
+                  <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>1</i></a>
+                  <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a>
+                  <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>3</i></a>
+                  <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a>
+              </div>
+              </div>
+              <span class="prev"></span>
+              <span class="next"></span>
+          </div>
+
+          <div class=""  style="background-color: #000;margin-top:20px;">
+            <div id="theDivMove">
+              <div id="theDiv">
+                <div><img src="images/d2 (1).jpeg" alt=""></div>
+                <div><img src="images/d2 (2).jpeg" alt=""></div>
+                <div><img src="images/d2 (1).png" alt=""></div>
+                <div><img src="images/男男.gif" alt=""></div>
+                <div><img src="images/d2 (1).jpeg" alt=""></div>
+                <div><img src="images/d2 (2).jpeg" alt=""></div>
+                <div><img src="images/d2 (1).png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="">
+          <div class="">
+            <img src="images/banner-02.png" alt="关于我们" style="width:100%;height:360px;">
+          </div>
+          <div class="w1100 clear padding_top20">
+            <div class="pull-left tabSytle">
+              <p>美食馆</p>
+              <div>MEI SHI GUAN</div>
+            </div>
+            <div class="pull-right tabSytleRight" style="width:70%">
+              <span style="font-size:24px;">美食馆美食</span>
+              <span>MEI SHI GUAN MEI SHI</span>
+            </div>
+            <div class="pull-right" style="width:70%">
+              <div class="pull-left photo">
+                <img src="images/d2 (1).png" alt="">
+              </div>
+              <div class="pull-left photo">
+                <img src="images/d2 (2).jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="">
+          <div class="">
+            <img src="images/banner-05.png" alt="最新动态" style="width:100%;height:360px;">
+          </div>
+          <div class="w1100 clear padding_top20">
+            <div class="pull-left tabSytle">
+              <p>最新动态</p>
+              <div>ZUI XIN DONG TAI</div>
+            </div>
+            <div class="pull-right tabSytleRight" style="width:70%">
+              <span style="font-size:24px;">动态详情</span>
+              <span>DONG TAI XIANG QING</span>
+            </div>
+            <div class="pull-right" style="width:70%">
+              <div class="pull-left photo">
+                <img src="images/d2 (1).png" alt="">
+              </div>
+              <div class="pull-left photo">
+                <img src="images/d2 (2).jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="">
+          <div class="">
+            <img src="images/banner-04.png" alt="联系我们" style="width:100%;height:360px;">
+          </div>
+          <div class="w1100 clear padding_top20">
+            <div class="pull-left tabSytle">
+              <p>所有美食</p>
+              <div>SUO YOU MEI YI</div>
+            </div>
+            <div class="pull-right tabSytleRight" style="width:70%">
+              <span style="font-size:24px;">所有美食</span>
+              <span>SUO YOU MEI YI</span>
+            </div>
+            <div class="pull-right" style="width:70%">
+              <div class="pull-left photo">
+                <img src="images/d2 (1).png" alt="">
+              </div>
+              <div class="pull-left photo">
+                <img src="images/d2 (2).jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <footer class="footer">
+      <div class="w1100" style="border-top: 1px solid #fff;"></div>
+      <div class="position_relative clear" style="height:35px;padding-bottom:30px;">
+        <div class="position_absolute clear" style="left:50%;top:10px;margin-left:-50px;">
+          <img src="images/weixin.png" alt="微信号公众号" class="pull-left">
+          <span class="pull-left colorFFF" style="line-height:35px;padding-left:10px;">微信号公众号</span>
+        </div>
+      </div>
+
+      <div class="record">
+        版权所有 © 美食馆  京ICP备：13433435号-3 号
+      </div>
+    </footer>
+
+
+  </body>
+</html>
+
+<script type="text/javascript">
+	Qfast.add('widgets', { path: "js/terminator2.2.min.js", type: "js", requires: ['fx'] });
+	Qfast(false, 'widgets', function () {
+		K.tabs({
+			id: 'fsD1',
+			conId: "D1pic1",
+			tabId:"D1fBt",
+			tabTn:"a",
+			conCn: '.fcon',
+			auto: 1,
+			effect: 'fade',
+			eType: 'click',
+			pageBt:true,
+			bns: ['.prev', '.next'],
+			interval: 3000
+		})
+	})
+
+  var theUl = document.getElementById("theDiv");
+  var oLis = theUl.getElementsByTagName("div");
+  var step = 0;
+  function move(){
+      if (step == 8){
+          step = 0;
+          animate.setCss(theUl,"left",step*-70);
+      }
+      step++;
+      animate(theUl,{left:step*-70},800);
+  }
+var timer = window.setInterval(move,1500);
+theUl.onmouseover = function(){
+    clearInterval(timer);
+};
+theUl.onmouseout = function(){
+    timer = window.setInterval(move,1500);
+};
+
+var tabUl = document.getElementById("tabUl");
+var tabBanner = document.getElementById("tabBanner");
+var tabUlLis = tabUl.getElementsByTagName("li");
+var tabBannerLis = tabBanner.getElementsByTagName("li");
+  console.log(tabUlLis);
+  console.log(tabBannerLis);
+  for (var i = 0; i < tabUlLis.length; i++) {
+    !function(i){
+      tabUlLis[i].onclick = function(){
+        for (var j = 0; j < tabBannerLis.length; j++) {
+          tabBannerLis[j].className = "";
+          tabUlLis[j].className = "pull-left";
+        }
+        tabBannerLis[i].className = "show";
+        tabUlLis[i].className = "pull-left colorChange";
+      }
+    }(i);
+
+  }
+
+
+
+</script>

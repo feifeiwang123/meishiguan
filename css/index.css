@@ -1,0 +1,164 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    font-size: 100px;
+}
+
+body {
+    -webkit-user-select: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    color: #424242;
+}
+
+header, footer, nav, section, aside, figure, figcaption, article, audio, video {
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a, a:hover, a:active, a:visited, a:target {
+    text-decoration: none;
+    color: #424242;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+.clear:after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.w10{
+    margin: 0 5%;
+}
+.w1100{
+  width: 1100px;
+  margin: auto;
+}
+.position_relative{
+  position: relative;
+}
+.position_absolute{
+  position: absolute;
+}
+.colorFFF{
+  color: #fff;
+}
+.padding_top20{
+  padding-top: 20px;
+}
+
+/*-----------------------------*/
+.tabBanner li{
+  display: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.tabBanner .show{
+  display: block;
+}
+.header{
+  background-color: #000;
+  height: 120px;
+  line-height: 120px;
+  font-size: 24px;
+  color: #fff;
+}
+.nav ul li{
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.nav ul li:hover{
+  background-color: #000;
+}
+
+#theDivMove{
+  position: relative;
+  height: 200px;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  overflow: hidden;
+}
+#theDiv{
+  position: absolute;
+  width: 1800px;
+  left:0;
+}
+#theDiv div{
+  float: left;
+}
+#theDiv div img{
+  width: 300px;
+  height: 200px;
+}
+.footer{
+  padding-top: 40px;
+  background-color: #000;
+}
+.footer .record{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #c30d23;
+  color: #fff;
+}
+.colorChange{
+  background-color: #000;
+}
+.tabSytle{
+  background-color: #c30d23;
+  padding: 10px;
+  width: 160px;
+  border-radius: 5px;
+}
+.tabSytle p{
+  font-size: 24px;
+}
+.tabSytleRight{
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+.photo{
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.photo img{
+  width: 200px;
+  height: 150px;
+}
